@@ -1,0 +1,19 @@
+/* Grafika a design */
+
+.project-section hr {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+
+.project-headings {
+    padding-top: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.design img {
+    height: 320px;
+    object-fit: contain;
+}

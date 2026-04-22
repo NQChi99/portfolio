@@ -1,0 +1,39 @@
+/* About me */
+
+.about-me-section {
+    display: flex;
+    gap: 40px;
+    padding: 80px 400px;
+}
+
+.about-me-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 24px;
+    line-height: 1.5;
+}
+
+.about-me-section p {
+    text-align: justify;
+}
+
+.about-me-section img {
+    width: 400px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 4px solid var(--black-color);
+}
+
+@media screen and (max-width: 768px) {
+    .about-me-section {
+        flex-direction: column;
+        padding: 40px 20px;
+        align-items: center;
+    }
+
+    .about-me-section img {
+        height: auto;
+    }
+}
