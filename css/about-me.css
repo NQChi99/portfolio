@@ -2,8 +2,10 @@
 
 .about-me-section {
     display: flex;
-    gap: 40px;
-    padding: 80px 400px;
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 0 160px;
+    gap: 80px;
 }
 
 .about-me-text {
