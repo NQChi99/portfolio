@@ -4,7 +4,9 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin: 80px 400px;
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 0 160px;
 }
 
 .contact-section hr {
@@ -17,7 +19,10 @@
 }
 
 .contact-buttons {
-    padding: 16px 0 0;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
 }
 
 .contact-buttons a {
@@ -27,7 +32,7 @@
     border-radius: 8px;
     color: var(--primary-color);
     font-weight: bold;
-    margin: 0 auto;
+    margin: 0;
     text-align: center;
 }
 
@@ -45,5 +50,19 @@
 @media screen and (max-width: 768px) {
     .contact-section {
         margin: 40px;
+    }
+
+    .contact-buttons {
+        flex-direction: column;
+    }
+
+    .contact-buttons a:nth-child(2) {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contact-section {
+        padding: 0;
     }
 }
