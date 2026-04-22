@@ -26,7 +26,6 @@ main {
 
 h2 {
   text-align: center;
-  text-transform: uppercase;
 }
 
 /* BUTTONS */
@@ -40,7 +39,7 @@ h2 {
   font-weight: bold;
   margin: 0 auto;
   display: block;
-  width: 15%;
+  width: 10%;
   text-align: center;
 }
 
@@ -83,9 +82,8 @@ header {
 
 .hero-section {
   background-color: var(--secondary-color);
-  height: auto;
+  height: 400px;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 15%;
@@ -97,7 +95,7 @@ header {
 }
 
 .hero-section img {
-  height: 320px;
+  height: 100%;
   object-fit: cover;
   border-radius: 8px;
 }
@@ -159,13 +157,10 @@ header {
 .project h3 {
   border-top: 2px solid var(--black-color);
   padding: 16px 0 8px 16px;
-  text-transform: uppercase;
-  font-weight: 600;
 }
 
 .project h4 {
   padding: 0 16px 16px;
-  font-weight: 400;
 }
 
 /* Footer: */
@@ -181,7 +176,6 @@ footer {
 
 .footer-section {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
@@ -223,28 +217,5 @@ footer a {
 
   .hero-section a {
     width: 50%;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .hero-section a {
-    margin: 24px auto;
-  }
-
-  .project-section>a {
-    width: 50%;
-  }
-
-  .footer-section {
-    row-gap: 24px;
-    justify-content: center;
-  }
-
-  .footer-section div:nth-child(2) {
-    text-align: center;
-  }
-
-  .footer-section div:last-of-type {
-    display: none;
   }
 }
