@@ -10,6 +10,7 @@
 
 .about-me-text {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     row-gap: 24px;
@@ -28,14 +29,19 @@
     border: 4px solid var(--black-color);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1050px) {
     .about-me-section {
         flex-direction: column;
         padding: 40px 20px;
         align-items: center;
+        margin: 24px auto;
     }
 
     .about-me-section img {
         height: auto;
+    }
+
+    .about-me-text {
+        padding: 0 10%;
     }
 }
