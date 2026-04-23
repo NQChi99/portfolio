@@ -16,7 +16,12 @@
 <body>
   <header>
     <nav id="navbar">
-      <ul>
+      <button class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul id="nav-menu">
         <li><a href="#">Domů</a></li>
         <li><a href="./projects/">Projekty</a></li>
         <li><a href="./about-me/">O mně</a></li>
@@ -40,13 +45,13 @@
     <section class="project-section">
       <h2>Projekty</h2>
       <div class="project-container">
-        <a href="https://nqchi99.github.io/jolie-decor/" class="project">
+        <a href="https://nqchi99.github.io/jolie-decor/" class="project" target="_blank">
           <img src="./img/jolie_decor.png" alt="jolie decor redesign banner">
           <h3>Redesign webové stránky</h3>
           <h4>Jolie Decor</h4>
         </a>
 
-        <a href="https://nqchi99.github.io/nike-landing-page/" class="project">
+        <a href="https://nqchi99.github.io/nike-landing-page/" class="project" target="_blank">
           <img src="./img/nike_landingpage.png" alt="nike landing page banner">
           <h3>Landing Page</h3>
           <h4>Nike</h4>
@@ -77,6 +82,7 @@
     </div>
     <p class="copyright">&copy; 2026 Chi Nguyen</p>
   </footer>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
