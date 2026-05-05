@@ -48,7 +48,9 @@ h2 {
 .hero-section a:hover,
 .project-section>a:hover,
 .contact-buttons a:hover,
-.footer-section span:hover {
+.footer-section span:hover,
+.project-buttons a:hover,
+.project-info a:first-of-type:hover {
   background-color: var(--gray-color);
 }
 
