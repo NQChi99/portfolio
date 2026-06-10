@@ -1,0 +1,62 @@
+/* About me */
+
+.about-me-section {
+    display: flex;
+    max-width: 1200px;
+    margin: 64px auto;
+    padding: 0 160px;
+    gap: 80px;
+}
+
+.about-me-text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 24px;
+    line-height: 1.5;
+}
+
+.about-me-section p {
+    text-align: justify;
+}
+
+.about-me-section img {
+    width: 400px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 4px solid var(--black-color);
+}
+
+.skills-section {
+    display: grid;
+    max-width: 1200px;
+    margin: 24px auto;
+    padding: 0 160px;
+}
+
+.skills-section h3 {
+    margin-bottom: 8px;
+}
+
+.skills-section a {
+    color: var(--black-color);
+}
+
+@media screen and (max-width: 1050px) {
+    .about-me-section {
+        flex-direction: column;
+        padding: 40px 20px;
+        align-items: center;
+        margin: 24px auto;
+    }
+
+    .about-me-section img {
+        height: auto;
+    }
+
+    .about-me-text {
+        padding: 0 10%;
+    }
+}
